@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="text_name">next</string>
+    <string name="main_screen">Main Screen</string>
+
+    <string name="send">Send</string>
+    <string name="text">Text</string>
+</resources>
