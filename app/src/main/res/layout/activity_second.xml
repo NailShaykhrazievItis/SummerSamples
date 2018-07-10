@@ -28,17 +28,28 @@
         app:layout_constraintGuide_percent="0.4" />
 
     <android.support.v7.widget.AppCompatTextView
-        android:id="@+id/tv_one"
+        android:id="@+id/tv_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:autoSizeMinTextSize="18sp"
-        android:autoSizeTextType="uniform"
-        android:text="Second Screen"
-        app:autoSizeMaxTextSize="32sp"
+        android:text="Email"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="Login"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageView
         android:layout_width="0dp"
@@ -60,8 +71,7 @@
         android:textColor="@color/primaryText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/gl_one"
-        app:layout_constraintRight_toLeftOf="@id/gl_onee"
-        app:layout_constraintTop_toBottomOf="@id/tv_one" />
+        app:layout_constraintRight_toLeftOf="@id/gl_onee"/>
 
     <Button
         android:id="@+id/btn_show"

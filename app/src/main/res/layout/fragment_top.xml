@@ -44,6 +44,5 @@
         android:textColor="@color/primaryText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/gl_left"
-        app:layout_constraintRight_toLeftOf="@id/gl_right"
-        app:layout_constraintTop_toBottomOf="@id/tv_one" />
+        app:layout_constraintRight_toLeftOf="@id/gl_right" />
 </android.support.constraint.ConstraintLayout>
