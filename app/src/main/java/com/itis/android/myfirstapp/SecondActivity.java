@@ -15,7 +15,10 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
         String text = getIntent().getStringExtra("key");
         Toast.makeText(this, text, Toast.LENGTH_LONG).show();
-
+        findViewById(R.id.btn_show).setOnClickListener(v->{
+            FirstDialog dialog = new FirstDialog();
+            dialog.show(getSupportFragmentManager(), "dialog");
+        });
     }
 
     public void clickBack(View v) {
