@@ -27,12 +27,14 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.4" />
 
-    <TextView
+    <android.support.v7.widget.AppCompatTextView
         android:id="@+id/tv_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autoSizeMinTextSize="18sp"
+        android:autoSizeTextType="uniform"
         android:text="Second Screen"
-        android:textSize="30sp"
+        app:autoSizeMaxTextSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -60,4 +62,11 @@
         app:layout_constraintLeft_toRightOf="@id/gl_one"
         app:layout_constraintRight_toLeftOf="@id/gl_onee"
         app:layout_constraintTop_toBottomOf="@id/tv_one" />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:textColor="@color/primaryText" />
 </android.support.constraint.ConstraintLayout>
